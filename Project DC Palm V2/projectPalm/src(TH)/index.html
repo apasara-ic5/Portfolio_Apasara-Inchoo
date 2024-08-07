@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DC Palm</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/styledata.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="CSS/Translate.css" />
+    
+ 
+  </head>
+
+  <body>
+    
+    <nav>
+        <div class="nav-con">
+          <div class="logo">
+            <img src="../img/logo (2).png" alt="" width="45px" height="45px" class="logo-sm">
+            <a href="#" class="tx-logo-sm ms-2">DC Palm</a>
+          </div>
+          <ul class="menu">
+            <li class="nav-item dropdown Translate" id ="Translate">
+              <a class="nav-link dropdown-toggle d-flex align-items-center " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="../img/thailand.png" alt="" width="20px" class="">_TH
+              
+              </a>
+              <ul class="dropdown-menu">
+                <li><a  href="../src(EN)/index.html" class="dropdown-item d-flex align-items-center" href="#"> <img src="../img/united-kingdom.png" alt="" width="20px" class="">_EN </a></li>
+              </ul>
+            </li>
+            <li><a href="log.php">เข้าสู่ระบบ</a></li>
+          </ul>
+        </div>
+      
+    </nav>
+
+    <!-- หน้าแรก -->
+    <section class="hero"  id="main">
+      <div class="container">
+        <div class="hero-con row m-auto">
+          <div class=""></div>
+          <div class="hero-info col-md-7 col ">
+            <h3 class="">การตรวจจับค่าสีและค่าความชื้นของผลปาล์มน้ำมัน</h3>
+            
+            <!-- <a href="#" class="hero-btn">Get Start</a> -->
+          </div>
+
+          <div class="hero-img col-md-5 col ">
+            <img src="../img/palmone_v2.png" alt="" class="rounded img-fluid" />
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+
+<!-- ส่วนข้อมูล1 -->
+<div class="two" id="dataPalm">
+<div class="row  ">
+  <div class="col"></div>
+  <div class="head col-6">
+   ข้อมูลปาล์ม
+  </div>
+  <div class="col"></div>
+</div>
+<div class="data ">
+  <div class="">
+    <div class="card">
+      <div class="img">
+      <img src="../img/raw.jpg" alt="" width="100%" height="80%" ></div>
+      <div class="intro">
+        <h2>ทะลายปาล์มดิบ</h2>
+        <p>ทะลายปาล์มที่มีผลปาล์มมีผิวเปลือกสีส้มแดงหรือสีแดงม่วง เนื้อปาล์มมีสีเหลืองอ่อน ไม่มีผลร่วง</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="">
+    <div class="card">
+      <div class="img">
+          <img src="../img/ripe.jpg" alt="" width="100%" height="80%" ></div>
+      <div class="intro">
+        <h2>ทะลายปาล์มสุก</h2>
+        <p>ทะลายปาล์มที่มีผลปาล์มมีผิวเปลือกสีส้มแดงหรือสีแดงม่วง และเนื้อปาล์มมีสีเหลืองส้ม มีจำนวนผลร่วงน้อยกว่า 10 ผลต่อทะลาย</p>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="card">
+      <div class="img">
+      <img src="../img/very-ripe.jpg" alt="" width="100%" height="80%" ></div>
+      <div class="intro">
+        <h2>ทะลายปาล์มสุกมาก</h2>
+        <p>ทะลายปาล์มที่มีผลปาล์มมีผิวเปลือกสีส้ม
+          หรือสีแดง และเนื้อปาล์มมีสีส้ม ทะลายปาล์มมีความสมบูรณ์มีผลปาล์มน้ำมันที่ติดอยู่กับทะลายมากกว่า 50% ของทะลาย</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!-- ส่วนข้อมูล2 -->
+<!-- <div class="row">
+  <div class="col"></div>
+  <div class="head col-6">
+   สีเนื้อในลูกปาล์ม
+  </div>
+  <div class="col"></div>
+</div> -->
+<div class="data">
+  <div class="">
+    <div class="card">
+      <div class="img">
+      <img src="../img/in_raw.jpg" alt="" width="100%" height="80%" ></div>
+      <div class="intro">
+        <h2>สีเนื้อในปาล์มดิบ</h2>
+        <p>เนื้อในมีลักษณะสีเหลืองอ่อน</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="containerr">
+    <div class="card">
+      <div class="img">
+          <img src="../img/in_ripe.jpg" alt="" width="100%" height="80%" ></div>
+      <div class="intro">
+        <h2>สีเนื้อในปาล์มสุก</h2>
+        <p>เนื้อในมีลักษณะสีเหลืองออกส้ม</p>
+      </div>
+    </div>
+  </div>
+  <div class="containerr">
+    <div class="card">
+      <div class="img">
+      <img src="../img/in_v-ripe.jpg" alt="" width="100%" height="80%" ></div>
+      <div class="intro">
+        <h2>สีเนื้อในปาล์มสุกมาก</h2>
+        <p>เนื้อในมีลักษณะสีส้มออกแดง</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- ส่วนข้อมูล3 -->
+<div class=" graph row">
+  <div class="col"></div>
+  <div class="head col-6">
+    กราฟ Scatter Plots
+  </div>
+  <div class="col"></div>
+
+  <div class=" ">
+    <div class="p-graph m-auto">
+      <div class="card m-auto mt-3" style="width: 100%; height: 100%;">
+      <h5 class="card-title mt-3 text-center">กราฟแสดงความสัมพันธ์ระหว่างค่าสีแดงและระดับความสุก</h5>
+        <div class="card-body">
+      
+          <canvas id="scatterChartColor" class=""style="position: relative; width: 10vh;"></canvas>
+        </div>
+        <div>
+          <h6 id="note" style="display: block;" ></h6>
+        </div>
+      </div>
+    </div>
+    
+  
+
+</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+   
+    <script>
+    function scrollToTop() {
+      // เลื่อนหน้าเว็บขึ้นไปยังส่วนบนสุด
+      window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+      });
+  }
+  function scrollToData() {
+      // เลื่อนหน้าเว็บขึ้นไปยังส่วนบนสุด
+      window.scrollTo({
+          top: 300,
+          behavior: 'smooth'
+      });
+  }
+  window.onload = function () {
+    PrepareData();
+    
+  };
+  </script>
+   <script src="JS/chart.js"></script>
+  </body>
+</html>

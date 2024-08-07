@@ -1,0 +1,29 @@
+.Translate .dropdown-menu {
+    width: fit-content !important;
+}
+.Translate a:hover{
+    color: white;
+   
+}
+.Translate a::after{
+    color: white;
+
+}
+.Translate a::after .navlink{
+    color: white;
+    text-decoration: line-through;
+}
+.Translate ul li a{
+    color: black;
+  
+}
+.Translate ul li a:hover{
+    color: black;
+    text-decoration:none;
+}
+.Translate ul li{
+    width:auto !important;
+}
+.Translate .dropdown-menu {
+    width: fit-content !important;
+}

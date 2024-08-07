@@ -1,0 +1,42 @@
+button{
+    border: none;
+    background-color: white;
+}
+
+.modalShow{
+    filter:drop-shadow(10px);
+    background-color: white;
+    border: 3px white solid;
+    border-radius: 5px;
+    position: fixed;
+    padding: 8px;
+    margin: auto;
+    inset: 0px;
+    width: fit-content;
+    height: fit-content;
+    z-index: 1001;
+
+    align-items: center;
+    justify-content: center; 
+}
+.save{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border: 3px blue solid;
+    border-radius: 3px;
+}
+.close{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border: 3px red solid;
+    border-radius: 3px;
+}
+button{
+    border: 3px;
+    border-radius: 3px;
+}
+input{
+    width: 30px;
+}
