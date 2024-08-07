@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,500;1,600&family=Poppins:wght@200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color:#191970 ;
+    font: size 35px;;
+    letter-spacing: 2px;
+    background-color: antiquewhite;
+}
+img{
+    width: 100%;
+    display: inline-block;
+}
+p{
+    color: black;
+}
+.on{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: dimgrey;
+    display: inline;
+    width: 1000px;
+    font-size: medium;
+    margin-top: 100px;
+}
+
+.line{
+    border: dashed 2px chocolate;
+}
+.one{
+   
+    text-align: center;
+    width: 200px;
+   margin: 0px 100px;
+   margin-top: 50px;
+}
+.content{
+    
+    width: 400px;
+    border:  solid 5px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    margin-top: 125px;
+    
+}
+.con{
+    
+    text-align: center;
+    
+
+}
+.st{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ccontent{
+    display: flex;
+    direction: row;
+    justify-content: center;
+}
+.vv{
+    justify-content: center;
+    border: dotted 5px cornflowerblue;
+    width:auto
+}

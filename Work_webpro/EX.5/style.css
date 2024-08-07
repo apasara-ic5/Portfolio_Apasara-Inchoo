@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Nunito:ital,wght@0,300;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@300&display=swap');
+
+body{
+    font-family: 'Krub', sans-serif;
+    background-color: #CCFFFF;
+   border: #000033;
+   border: solid 10px;
+   padding: 10px;
+   
+}
+
+h1{
+    background-color: rgb(255, 248, 239);
+    
+    border: dashed cornflowerblue 3px;
+    width: 300px;
+    padding: 10px;
+   text-align: center;
+    
+}
+h2{
+    font-family: 'Chakra Petch', sans-serif;
+    color: #000033;
+    text-align: center;
+}
+img{
+    width: 250px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+.dd{
+    display: inline;
+
+
+}
+.one{
+    text-align: center;
+}
+
+.two{
+    
+    margin: 0px 25px;
+flex-direction: column;
+}
+.work{
+    display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.work1{
+
+    display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.mu{
+    display: inline;
+    margin-right: 20px;
+}
+.work2{
+   
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+  
