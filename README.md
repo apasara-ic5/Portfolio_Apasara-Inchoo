@@ -1,7 +1,7 @@
 # Portfolio_Apasara-Inchoo
 All Works and Awards
 
-##Figma
+## Figma
 system design
 1. [Alumni](https://www.figma.com/design/UTgcbkjfZwtNXdxj8zYT0R/alumni?)
 2. [DC Plam V1](https://www.figma.com/design/3056NazGlFwFTyIfJNxooI/DC-Palm?)
@@ -9,16 +9,16 @@ system design
 4. [Portfolio](https://www.figma.com/design/wtEG3vb0CG5V7uIz3XLLVj/Design-System-Web-Portfolio?)
 5. [Medham Hospitel](https://www.figma.com/design/aBwQgvtTVJVNaFVf1gpkXY/Medham-Hospitel?)
 
-##Android Studio
+## Android Studio
 developed using Android Studio ( Java)
 1.[Healthcheck](https://drive.google.com/file/d/1T5NMbV7U2vRyYzBiQkHB0aEVMcdzGm6F/view?usp=sharing)
 
-##WebApplication
+## WebApplication
 development  web application (HTML, javaScript, PHP, CSS)
 1. [DC Palm V2](https://github.com/apasara-ic5/Portfolio_Apasara-Inchoo/tree/03cb94d9f7c7e7d79e90795dcb0c620e957cf6ec/Project%20DC%20Palm%20V2/projectPalm)
 2. [Work_webpro](https://github.com/apasara-ic5/Portfolio_Apasara-Inchoo/tree/03cb94d9f7c7e7d79e90795dcb0c620e957cf6ec/Work_webpro)
 
-##Certificate
+## Certificate
 1. [PSU Expo](https://github.com/apasara-ic5/Portfolio_Apasara-Inchoo/blob/03cb94d9f7c7e7d79e90795dcb0c620e957cf6ec/Certificate/%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%A5%20PSU%20Expo.pdf)
 2. [Microsoft Excel](https://github.com/apasara-ic5/Portfolio_Apasara-Inchoo/blob/03cb94d9f7c7e7d79e90795dcb0c620e957cf6ec/Certificate/%E0%B8%AD%E0%B8%9A%E0%B8%A3%E0%B8%A1%20Microsoft%20Excel.pdf)
 3. [moblie app](https://github.com/apasara-ic5/Portfolio_Apasara-Inchoo/blob/03cb94d9f7c7e7d79e90795dcb0c620e957cf6ec/Certificate/%E0%B8%AD%E0%B8%9A%E0%B8%A3%E0%B8%A1%20moblie%20app.pdf)
