@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>หน้าแรก</title>
+    <link rel="website icon" type="png" href="img/LOGO-Pilin_PetShop.png" />
+    <link rel="stylesheet" href="home.css" />
+    <!--jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+<!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+<!-- slick js -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+				
+
+  </head>
+  <body>
+    <!-- Navber -->
+    <nav>
+      <div class="nav-container">
+        <a href="home.html">
+          <img src="img/LOGO-Pilin_PetShop.png" class="logonav" />
+        </a>
+
+        <div class="navber">
+          <a href="home.html" class="navber-name">หน้าแรก</a>
+          <a href="./login/login.php" class="navber-name">สินค้า</a>
+          <a href="article.html" class="navber-name">บทความ</a>
+          <div onclick="openCart()" style="cursor: pointer" class="nav-cart">
+            <i class="fas fa-cart-shopping"></i>
+            <div id="cartcount" class="cartcount" style="display: none">0</div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slide -->
+     <div class="slideshow">
+        <div class="items">
+          <img src="imghome/memo.jpg" alt="">
+        </div>
+
+        <div class="items">
+          <img src="imghome/คานิว่า.jpg" alt="">
+        </div>
+
+        <div class="items">
+          <img src="imghome/cat.png" alt="">
+        </div>
+        <div class="items">
+          <img src="imghome/คานิว่า2.jpg" alt="">
+        </div>
+     </div>
+     <script>
+      $(document).ready(() =>{
+          $('.slideshow').slick();
+          $(".slideshow .slick-prev").html('<i class="fa-solid fa-chevron-left"></i>')
+          $(".slideshow .slick-next").html('<i class="fa-solid fa-chevron-right"></i>')
+      })
+     </script>
+     <br>
+
+      <section class="product">
+          <div class="container">
+              <div class="product-head"> 
+                <h1 style="font-size: 30px;">หมวดสินค้า</h1>
+              </div>
+              <div class="product-table">
+                <div class="product-box">
+                  <div class="product-m">
+                  <img src="img/Pellet.png" alt="" style="width: 50%;">
+                    <p style="font-size: 20px;">อาหารเม็ด</p>
+                    </div>
+                  <div class="product-p">
+                    <img src="img/Wet.png" alt="" style="width: 50%;">
+                    <p style="font-size: 20px;" > อาหารเปียก</p>
+                  </div>
+                  <div class="product-k">
+                    <img src="img/a.png" alt="" style="width: 50%;">
+                    <p style="font-size: 20px;" >ขนมทานเล่น</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+          
+      <section class="article">
+        <div class="container">
+          <div class="art">
+            <div class="article-head"> 
+              <h1 style="font-size: 30px;">บทความ</h1>
+            </div>
+            <div class="article-box">
+        <div class="article-content1">
+          <a href="article.html">
+          <img class="a-img" src="img/10cat.png" alt="" style="width: 70%;"/>
+          <br>
+          <div class="a-detail">
+            <p  style=" color: #3f464b">10 ของใช้จำเป็นในบ้านสำหรับน้องแมวตัวใหม่</p>
+            <br/></a>
+          </div>
+        </div>
+        <div class="article-content2">
+          <img class="a-img" src="img/10catsum.png" alt=""style="width: 90%;" />
+          <br>
+          <div class="a-detail">
+            <p  style=" color: #3f464b">10 วิธีแก้ปัญหาน้องแมวซึม ไม่กินอาหาร</p>
+            
+            <br />
+          </div>
+        </div>
+        <div class="article-content3">
+          <img  src="img/catroom.png" alt="" style="width: 70%;"/>
+          <br>
+          <div class="a-detail">
+            <p  style=" color: #3f464b">ทำไม ‘แมว’ ชอบตามเราเข้าห้องน้ำ?</p>
+            
+            <br />
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </section> 
+
+
+
+  </body>
+</html>

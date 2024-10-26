@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+nav{
+    width: 100%;
+    height: 5vw;
+    background-color: #EFE4C8;
+
+}
+.nav-container{
+    max-width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logonav{
+    width: 5VW;
+    object-fit: contain;
+}
+.navber{
+    display: flex;
+    align-items: center;
+}
+.navber-name{
+    color: #3F464B;
+    font-size: 1.2vw;
+    margin-right: 20px;
+}
+.fa-cart-shopping{
+    font-size: 2vw;
+    color: #3F464B;
+}
+.nav-cart{
+    position: relative;
+}
+/* รูปสไลด์ */
+.slideshow{
+    position: relative;
+    max-width: 1000px;
+    max-height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.items{
+    max-width: 1000px;
+    max-height: 500px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.items img{
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+}
+.slideshow .slick-prev{
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    z-index:10 ;
+}
+
+.slideshow .slick-next{
+    position: absolute;
+    top: 250px;
+    right: 25px;
+    z-index:10 ;
+}
+.slideshow .slick-arrow{
+    z-index: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+}
+/* หมวดสินค้า */
+.product{
+    background-color: #EFE4C8;
+    color: #3F464B;
+    text-align: center;
+    padding: 10px 0 ;
+    
+}
+.product-head{
+    margin-top: 20px;
+}
+.product-box{
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+    margin: 10px;
+}
+
+.article{
+    color: #3F464B;
+    text-align: center;
+    padding: 10px 0 ;}
+.article-head{
+    color: #3F464B;
+    text-align: center;
+    margin-top: 20px;
+}
+.article-box{
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+    margin: 10px;
+    padding: 20px;
+}
+

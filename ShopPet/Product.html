@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>หน้าสินค้า</title>
+    <link rel="website icon" type="png" href="img/LOGO-Pilin_PetShop.png" />
+    <link rel="stylesheet" href="Product.css" />
+    <!-- jQuery -->
+    
+   
+    <!-- แจ้งเตือน -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+  </head>
+
+
+
+  <body>
+    <!-- Navber -->
+    <nav>
+      <div class="nav-container">
+        <a href="home.html">
+          <img src="img/LOGO-Pilin_PetShop.png" class="logonav" />
+        </a>
+
+        <div class="navber">
+          <a href="home.html" class="navber-name">หน้าแรก</a>
+          <a href="./login/login.php" class="navber-name">สินค้า</a>
+          <a href="article.html" class="navber-name">บทความ</a>
+          <a href="report.php" class="navber-name">รายงาน</a>
+          <div onclick="openCart()" style="cursor: pointer;" class="nav-cart">
+          <i class="fas fa-cart-shopping"></i>
+          <div id="cartcount" class="cartcount" style="display: none;">
+            0
+          </div></div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="menu">
+        <input onkeyup="searchsomething(this)" id="txt_search" type="text" class="menu-search" placeholder="ค้นหาสินค้า" />
+        
+        <a onclick="searchproduct('all')" class="menu-items">
+          <p>สินค้าทั้งหมด</p>
+        </a>
+        <a onclick="searchproduct('Pellet')" class="menu-items">
+          <p>อาหารเม็ด</p>
+        </a>
+        <a onclick="searchproduct('Wet')" class="menu-items">
+          <p>อาหารเปียก</p>
+        </a>
+        <a onclick="searchproduct('Appetizers')" class="menu-items">
+          <p>อาหารทานเล่น</p>
+        </a>
+      </div>
+
+      <div id="productlist" class="product">
+       
+        </div>
+      </div>
+    </div>
+
+
+    <div id="modalDesc" class="modal" style="display: none">
+      <div onclick="closeModal()" class="modal-bg"></div>
+      <div class="modal-page">
+        <h2 style="color: #3f464b">รายละเอียด</h2>
+        <br />
+
+        <div class="modal-content">
+          <img id="mdd-img" class="modal-img" src="img/kaniva.png" alt="" />
+          <div class="modal-detail">
+            <p id="mdd-name" style="font-size: 2vw; color: #3f464b">Me-o Gold Kitten Food</p>
+            <p id="mdd-price" style="font-size: 1.2vw; color: #3f464b">229 บาท</p>
+            <br />
+            <p id="mdd-desc" style="color: #3f464b">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+              vero magni
+            </p>
+            <br />
+            <br />
+            <br />
+            <div class="btn-contor">
+              <button onclick="closeModal()" class="btn">ปิด</button>
+              <button onclick="addtocart()" class="btn btn-buy">เพิ่มลงตระกร้า</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- รายละเอียตระกร้า -->
+    <div id="modalCart" class="modal" style="display: none">
+      <div onclick="closeModal()" class="modal-bg"></div>
+      <div class="modal-page">
+        <h2 style="color: #3f464b">ตระกร้าของฉัน</h2>
+        <br>
+        <div  id="mycart" class="cartlist">
+          
+        </div>
+          <div class="btn-contor">
+            <button onclick="closeModal()" class="btn">ยกเลิก</button>
+            <button onclick="buy()" class="btn btn-buy">สั่งซื้อ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+      <script src="Product.js"></script>
+  </body>
+</html>
